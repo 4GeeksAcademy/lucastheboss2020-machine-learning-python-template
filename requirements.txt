@@ -8,8 +8,13 @@ psycopg2-binary>=2.9.3
 pymysql>=1.0.2
 python-dotenv>=0.20.0
 requests>=2.27.1
-scikit-learn
+scikit-learn==1.9.1
 seaborn>=0.12.2
 sqlalchemy>=2.0.38
 sympy>=1.10.1
 xgboost
+# Sentiment analysis (WeLoveReviews) — pinned for reproducibility
+torch==2.15.0
+transformers==5.21.0
+tokenizers==0.23.3
+sentencepiece==0.2.2
